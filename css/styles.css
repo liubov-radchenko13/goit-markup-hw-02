@@ -10,14 +10,19 @@ ul,ol {
     list-style: none;
     padding: 0;
     margin: 0;
-
+}
+.button{
+    cursor: pointer;
+}
+img{
+    display: block;
 }
 .container{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.header{
+.page-header{
     border-bottom: 1px solid #e7e9fc;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -34,9 +39,14 @@ ul,ol {
     display: flex;
     align-items: center;
 }
-.navigation{
+.page-navigation{
     display: flex;
     align-items: center;
+    font-family: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #404bbf;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -57,7 +67,7 @@ margin-right: 76px;
     text-transform: uppercase;
     color: #2e2f42;
 }
-.nav-list{
+.menu{
     display: flex;
     gap: 40px;
     font-weight: 500;
@@ -66,7 +76,14 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-link{
+.menu-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-link{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -76,13 +93,17 @@ margin-right: 76px;
     padding: 24px 0;
     display: block;
 }
-.nav-link:hover,
-.nav-link:focus{
+.menu-link:hover,
+.menu-link:focus{
     color: #404bbf;
 }
 .address{
 font-style: normal;
 margin-left: auto;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02;
+color: #434455;
 }
 .address-list{
     display: flex;
@@ -97,11 +118,8 @@ margin-left: auto;
     color:#2e2f42;
 }
 .address-link:hover,
-.nav-link:focus{
+.menu-link:focus{
     color: #404bbf;
-}
-.nav-links{
-    background-color: #2e2f42;
 }
 .footer{
     background-color: #2e2f42;
@@ -109,7 +127,7 @@ margin-left: auto;
 .logo-parts{
     color: #f4f4fd;
 }
-.p{
+.paragraph{
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
