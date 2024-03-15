@@ -60,6 +60,11 @@ margin-right: 76px;
 .nav-list{
     display: flex;
     gap: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .nav-link{
     font-family: "Roboto", sans-serif;
@@ -98,17 +103,8 @@ margin-left: auto;
 .footer{
     background-color: #2e2f42;
 }
-.logo{
-    font-family:"Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.span{
-    color:  #f4f4fd;
+.logo-parts{
+    color: #f4f4fd;
 }
 .p{
     line-height: 1.5;
