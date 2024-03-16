@@ -63,7 +63,6 @@ margin-right: 76px;
         background-color: #404bbf;
  }
 .nav-list{
-    display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -129,6 +128,9 @@ color: #434455;
 }
 .section{
     background-color: #2e2f42;
+}
+.sections{
+    background-color: #f4f4fd;
 }
 .effective{
     font-size: 56px;
