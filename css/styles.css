@@ -28,10 +28,11 @@ img{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .span{
     color: #2e2f42;
 }
@@ -45,7 +46,7 @@ img{
     font-family: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #404bbf;
 }
 .logo{
@@ -67,6 +68,20 @@ margin-right: 76px;
     text-transform: uppercase;
     color: #2e2f42;
 }
+.current{
+    position: relative;
+    color: #404bbf;
+    }
+    .current::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        height: 4px;
+        width: 100%;
+    }
 .nav-list{
     display: flex;
     gap: 40px;
@@ -102,7 +117,7 @@ font-style: normal;
 margin-left: auto;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 color: #434455;
 }
 .address-list{
